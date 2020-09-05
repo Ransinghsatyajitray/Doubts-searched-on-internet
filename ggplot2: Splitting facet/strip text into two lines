@@ -1,0 +1,3 @@
+https://stackoverflow.com/questions/9052650/ggplot2-splitting-facet-strip-text-into-two-lines
+
+ggplot(d, aes(x=x,y=y)) + geom_line() + facet_wrap(~ grp, labeller = label_wrap_gen(width=10))
