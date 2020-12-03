@@ -1,0 +1,5 @@
+https://stackoverflow.com/questions/25166624/insert-picture-table-in-r-markdown
+
+```{r pressure, echo=FALSE, fig.cap="A caption", out.width = '100%'}
+knitr::include_graphics("temp.png")
+```
